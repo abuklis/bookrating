@@ -3,34 +3,39 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>BookRating</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
         <fmt:setLocale value="${sessionScope.locale}"/>
         <fmt:setBundle basename="locale" var="loc"/>
         <fmt:message bundle="${loc}" key="locale.login" var="login"/>
         <fmt:message bundle="${loc}" key="locale.logout" var="logout"/>
         <fmt:message bundle="${loc}" key="locale.registration" var="registration"/>
         <fmt:message bundle="${loc}" key="locale.welcomeText" var="welcomeText"/>
+        <fmt:message bundle="${loc}" key="locale.bookrating" var="bookrating"/>
+        <fmt:message bundle="${loc}" key="locale.popularBooks" var="popularBooksTitle"/>
+        <fmt:message bundle="${loc}" key="locale.more" var="more"/>
+        <fmt:message bundle="${loc}" key="locale.next" var="next"/>
+        <fmt:message bundle="${loc}" key="locale.previous" var="previous"/>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>${bookrating}</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
     </head>
     <body>
     <%@include file="header.jsp"%>
 
     <div class="container-fluid book-list">
         <div class="row popular">
-                <div>Most popular books: </div>
+                <div>${popularBooksTitle} : </div>
                 <c:forEach items="${popularBooks}" var="popularBook">
                     <div class="col-md-4 margin-bottom-sm-3">
                         <div class="tm-3-col-box gray-bg book-item">
@@ -51,7 +56,7 @@
                 </c:forEach>
             </div>
 
-        <div class="row ">
+        <div class="row">
                 <c:forEach items="${books}" var="bookItem">
                     <div class="col-md-4 margin-bottom-sm-3">
                         <div class="tm-3-col-box gray-bg book-item">
@@ -63,16 +68,15 @@
                             </div>
                             <p class="tm-description-text desc-short-text">${bookItem.description}</p>
                             <div class="book-item-btn-more">
-                                <a href="controller?command=viewSingle&bookId=${bookItem.bookId}"  class="btn btn-default tm-normal-btn tm-gray-btn">More</a>
+                                <a href="controller?command=viewSingle&bookId=${bookItem.bookId}"  class="btn btn-default tm-normal-btn tm-gray-btn">${more}</a>
                             </div>
                         </div>
                     </div>
                 </c:forEach>
-            </div>
-
+        </div>
 
         <c:if test="${currentPageNumber != 1}">
-            <td><a href="controller?command=viewAllBooks&page=${currentPageNumber - 1}">Previous</a></td>
+            <td><a href="controller?command=viewAllBooks&page=${currentPageNumber - 1}">${previous}</a></td>
         </c:if>
 
         <%--For displaying Page numbers.
@@ -91,13 +95,8 @@
 
         <%--For displaying Next link --%>
         <c:if test="${currentPageNumber lt pagesAmount}">
-            <td><a href="controller?command=viewAllBooks&page=${currentPageNumber + 1}">Next</a></td>
+            <td><a href="controller?command=viewAllBooks&page=${currentPageNumber + 1}">${next}</a></td>
         </c:if>
     </div> <!-- container-fluid -->
-        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h -->
-        <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
-        <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-        <script src="js/jquery.magnific-popup.min.js"></script>     <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
     </body>
 </html>

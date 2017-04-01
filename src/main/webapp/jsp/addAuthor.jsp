@@ -1,16 +1,32 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <html lang="en">
 <head>
+    <fmt:setLocale value="${sessionScope.locale}"/>
+    <fmt:setBundle basename="locale" var="loc"/>
+    <fmt:message bundle="${loc}" key="locale.login" var="login"/>
+    <fmt:message bundle="${loc}" key="locale.logout" var="logout"/>
+    <fmt:message bundle="${loc}" key="locale.registration" var="registration"/>
+    <fmt:message bundle="${loc}" key="locale.welcomeText" var="welcomeText"/>
+    <fmt:message bundle="${loc}" key="locale.bookrating" var="bookrating"/>
+    <fmt:message bundle="${loc}" key="locale.fullName" var="fullName"/>
+    <fmt:message bundle="${loc}" key="locale.birthYear" var="birthYear"/>
+    <fmt:message bundle="${loc}" key="locale.biography" var="biography"/>
+    <fmt:message bundle="${loc}" key="locale.birthCountry" var="birthCountry"/>
+    <fmt:message bundle="${loc}" key="locale.image" var="image"/>
+    <fmt:message bundle="${loc}" key="locale.imgText" var="imgText"/>
+    <fmt:message bundle="${loc}" key="locale.save" var="save"/>
+    <fmt:message bundle="${loc}" key="locale.authorExists" var="authorExists"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BookRating</title>
+    <title>${bookrating}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400">
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -18,7 +34,7 @@
 </head>
 <c:set var="user" value="user"/>
 <c:set var="admin" value="admin"/>
-<body id="top" class="home">
+<body>
 
 <div class="tm-navbar-container-dark">
 
@@ -79,7 +95,7 @@
 
                 <c:choose>
                     <c:when test="${not empty errorMessage}">
-                        <div class="row text-xs-center error-text">Such author already exists.</div>
+                        <div class="row text-xs-center error-text">${authorExists}.</div>
                     </c:when>
                 </c:choose>
 
@@ -89,7 +105,7 @@
 
                     <div class="form-group row">
                         <div class="col-md-1"></div>
-                        <div class="col-md-2 single_view"><label for="author">Full Name: </label></div>
+                        <div class="col-md-2 single_view"><label for="author">${fullName}: </label></div>
                         <div class="col-md-6">
                             <input type="text" class="form-control" id="author" name="fullName" required/>
                         </div>
@@ -98,36 +114,36 @@
 
                     <div class="form-group row">
                         <div class="col-md-1"></div>
-                        <div class="col-md-2 single_view"><label for="title">Birth Year:</label></div>
+                        <div class="col-md-2 single_view"><label for="title">${birthYear}: </label></div>
                         <div class="col-md-6"><input type="text" class="form-control" id="title" name="birthYear" required/></div>
                         <div class="col-md-3"></div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-1"></div>
-                        <div class="col-md-2 single_view"> <label for="biography">biography:</label></div>
+                        <div class="col-md-2 single_view"> <label for="biography">${biography}: </label></div>
                         <div class="col-md-6"><textarea class="form-control" rows="3" id="biography" name ="biography" required></textarea></div>
                         <div class="col-md-3"></div>
                     </div>
 
                     <div class="form-group row">
                         <div class="col-md-1"></div>
-                        <div class="col-md-2 single_view"><label for="birthCountry">birthCountry</label></div>
+                        <div class="col-md-2 single_view"><label for="birthCountry">${birthCountry}: </label></div>
                         <div class="col-md-6"><input type="text" class="form-control" id="birthCountry" name="birthCountry" required/></div>
                         <div class="col-md-3"></div>
                     </div>
 
                     <div class="form-group row">
                         <div class="col-md-1"></div>
-                        <div class="col-md-2 single_view"><label for="imageUrl">Image:</label></div>
+                        <div class="col-md-2 single_view"><label for="imageUrl">${image}:</label></div>
                         <div class="col-md-6">
                             <input type="file" id="imageUrl" name="imageUrl" accept="image/*">
-                            <p class="help-block">${news_image_help_text}</p>
+                            <p class="help-block">${imgText}</p>
                         </div>
                         <div class="col-md-3"></div>
                     </div>
                     <div class="row">
                         <div class="col-md-5"></div>
-                        <div class="col-md-2"><input type="submit" class="btn btn-primary button alt" value="Submit"/></div>
+                        <div class="col-md-2"><input type="submit" class="btn btn-primary button alt" value="${save}"/></div>
                         <div class="col-md-5"></div>
                     </div>
                 </form>
@@ -135,11 +151,5 @@
         </section>
     </div>
 </div> <!-- container-fluid -->
-
-<script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h -->
-<script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
-<script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-<script src="js/jquery.magnific-popup.min.js"></script>     <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
 </body>
 </html>

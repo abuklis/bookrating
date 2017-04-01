@@ -1,7 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc18ea39-a891-40f4-a201-e2af10bd413b" name="Default" comment="" />
+    <list default="true" id="dc18ea39-a891-40f4-a201-e2af10bd413b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/DAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/validation.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/Command.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/CommandEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/ChangeLocaleCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/ConverseToHashMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/EmptyCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/LeaveRatingCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/AddAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/AddAuthorPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/AddBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/AddBookPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/AddBookToFavoriteCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/AddBookToReadCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/DeleteBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/DeleteBookFromFavoriteCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/DeleteBookFromReadCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/EditAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/EditAuthorPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/EditBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/EditBookPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/FindBooksByAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/FindBooksByGenreCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/ViewAllBooksCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/ViewAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/book/ViewSingleBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/comment/BanUserCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/comment/DeleteCommentCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/comment/LeaveCommentCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/comment/ViewAllCommentsCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/comment/ViewTodayCommentsCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/comment/ViewUserCommentsCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/EditProfileCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/EditProfilePageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/LoginCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/LoginPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/LogoutCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/RegistrationCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/RegistrationPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/ViewAllUsersCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/ViewFavoriteBooksCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/ViewProfileCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/command/impl/user/ViewReadBooksCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/constant/PageConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/constant/ParameterConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/constant/RoleEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/controller/ActionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/controller/FrontController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/exception/CommandException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/filter/CharsetFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/controller/filter/LocaleFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/connection/IConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/connection/impl/ConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/AuthorDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/BookDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/CommentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/GenreDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/RatingDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/CloseStatement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/MySQLAuthorDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/MySQLBookDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/MySQLCommentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/MySQLGenreDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/MySQLRatingDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/dao/impl/MySQLUserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/entity/Author.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/entity/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/entity/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/entity/Genre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/entity/Rating.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/exception/ConnectionPoolException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/dao/exception/DAOException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/exception/ServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/logic/HashLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/logic/ImageLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/service/AuthorService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/service/BookService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/service/CommentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/service/GenreService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/service/RatingService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/by/epam/bookrating/service/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bookrating/css/templatemo-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/Command.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/CommandEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/ChangeLocaleCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/ConverseToHashMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/EmptyCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/LeaveRatingCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/AddAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/AddAuthorPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/AddBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/AddBookPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/AddBookToFavoriteCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/AddBookToReadCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/DeleteBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/DeleteBookFromFavoriteCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/DeleteBookFromReadCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/EditAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/EditAuthorPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/EditBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/EditBookPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/FindBooksByAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/FindBooksByGenreCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/ViewAllBooksCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/ViewAuthorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/book/ViewSingleBookCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/comment/BanUserCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/comment/DeleteCommentCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/comment/LeaveCommentCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/comment/ViewAllCommentsCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/comment/ViewTodayCommentsCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/comment/ViewUserCommentsCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/EditProfileCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/EditProfilePageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/LoginCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/LoginPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/LogoutCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/RegistrationCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/RegistrationPageCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/ViewAllUsersCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/ViewFavoriteBooksCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/ViewProfileCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/command/impl/user/ViewReadBooksCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/constant/PageConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/constant/ParameterConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/constant/RoleEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/controller/ActionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/controller/FrontController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/exception/CommandException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/filter/CharsetFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/controller/filter/LocaleFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/connection/IConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/connection/impl/ConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/AuthorDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/BookDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/CommentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/GenreDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/RatingDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/CloseStatement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/MySQLAuthorDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/MySQLBookDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/MySQLCommentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/MySQLGenreDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/MySQLRatingDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/dao/impl/MySQLUserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/entity/Author.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/entity/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/entity/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/entity/Genre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/entity/Rating.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/exception/ConnectionPoolException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/dao/exception/DAOException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/exception/ServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/logic/HashLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/logic/ImageLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/service/AuthorService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/service/BookService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/service/CommentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/service/GenreService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/service/RatingService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/epam/bookrating/service/service/UserService.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/locale.properties" afterPath="$PROJECT_DIR$/src/main/resources/locale.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/locale_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/locale_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/locale_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/locale_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/addAuthor.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/addAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/addBook.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/addBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/booksByGenre.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/booksByGenre.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/editAuthor.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/editAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/editBook.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/editBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/editProfile.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/editProfile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/fail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/fail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/favoriteBooks.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/favoriteBooks.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/profile.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/readBooks.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/readBooks.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/search.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/search.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/viewAll.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/viewAll.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/viewAllUsers.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/viewAllUsers.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/viewAuthor.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/viewAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/viewTodayComments.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/viewTodayComments.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/locale.properties" afterPath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/locale.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/locale_en.properties" afterPath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/locale_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/locale_ru.properties" afterPath="$PROJECT_DIR$/target/bookrating/WEB-INF/classes/locale_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/bookrating/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/addAuthor.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/addAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/addBook.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/addBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/booksByGenre.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/booksByGenre.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/editAuthor.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/editAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/editBook.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/editBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/editProfile.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/editProfile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/fail.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/fail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/favoriteBooks.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/favoriteBooks.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/header.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/login.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/profile.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/readBooks.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/readBooks.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/registration.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/search.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/search.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/userComments.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/userComments.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/viewAll.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/viewAll.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/viewAllUsers.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/viewAllUsers.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/viewAuthor.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/viewAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/viewSingle.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/viewSingle.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bookrating/jsp/viewTodayComments.jsp" afterPath="$PROJECT_DIR$/target/bookrating/jsp/viewTodayComments.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/locale.properties" afterPath="$PROJECT_DIR$/target/classes/locale.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/locale_en.properties" afterPath="$PROJECT_DIR$/target/classes/locale_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/locale_ru.properties" afterPath="$PROJECT_DIR$/target/classes/locale_ru.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/Command.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/Command.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/CommandEnum.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/CommandEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/ChangeLocaleCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/ChangeLocaleCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/ConverseToHashMap.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/ConverseToHashMap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/EmptyCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/EmptyCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/LeaveRatingCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/LeaveRatingCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddAuthorCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddAuthorCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddAuthorPageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddAuthorPageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddBookCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookPageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddBookPageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookToFavoriteCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddBookToFavoriteCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookToReadCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddBookToReadCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/DeleteBookCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/DeleteBookCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/DeleteBookFromFavoriteCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/DeleteBookFromFavoriteCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/DeleteBookFromReadCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/DeleteBookFromReadCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/EditAuthorCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditAuthorCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/EditAuthorPageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditAuthorPageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/EditBookCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditBookCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/EditBookPageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditBookPageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/FindBooksByAuthorCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/FindBooksByAuthorCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/FindBooksByGenreCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/FindBooksByGenreCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewAllBooksCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewAllBooksCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewAuthorCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewAuthorCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewSingleBookCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewSingleBookCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/DeleteCommentCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/DeleteCommentCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/LeaveCommentCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/LeaveCommentCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/ViewAllCommentsCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/ViewAllCommentsCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/ViewTodayCommentsCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/ViewTodayCommentsCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/ViewUserCommentsCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/ViewUserCommentsCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/BanUserCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/BanUserCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/EditProfileCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/EditProfileCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/EditProfilePageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/EditProfilePageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LoginCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/LoginCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LoginPageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/LoginPageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LogoutCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/LogoutCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/RegistrationCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/RegistrationCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/RegistrationPageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/RegistrationPageCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewAllUsersCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/ViewAllUsersCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewFavoriteBooksCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/ViewFavoriteBooksCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewProfileCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/ViewProfileCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewReadBooksCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/ViewReadBooksCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/constant/PageConstant.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/PageConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/constant/ParameterConstant.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/ParameterConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/constant/RoleEnum.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/RoleEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/ActionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/ActionFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/FrontController.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/FrontController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/exception/CommandException.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/CommandException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/filter/CharsetFilter.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/filter/CharsetFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/filter/LocaleFilter.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/filter/LocaleFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/connection/IConnectionPool.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/pool/IConnectionPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/connection/impl/ConnectionPool.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/pool/impl/ConnectionPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/AuthorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/AuthorDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/BookDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/CommentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/CommentDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/GenreDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/GenreDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/RatingDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/RatingDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/UserDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/CloseStatement.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/CloseStatement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLAuthorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLAuthorDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLBookDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLCommentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLCommentDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLGenreDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLGenreDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLRatingDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLRatingDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLUserDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/Author.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/entity/Author.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/Book.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/entity/Book.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/entity/Comment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/Genre.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/entity/Genre.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/Rating.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/entity/Rating.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/entity/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/exception/ConnectionPoolException.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/pool/ConnectionPoolException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/exception/DAOException.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/DAOException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/exception/ServiceException.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/ServiceException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/HashLogic.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/util/HashLogic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/ImageLogic.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/util/ImageLogic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/AuthorService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/AuthorService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/BookService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/BookService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/CommentService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/CommentService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/GenreService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/GenreService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/RatingService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/RatingService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/UserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/css/templatemo-style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+    </list>
     <ignored path="bookrating.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,21 +337,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddAuthorCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddAuthorCommand.java">
+      <file leaf-file-name="userComments.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/connection/impl/ConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -60,91 +350,88 @@
       <file leaf-file-name="viewAll.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewAll.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+            <state vertical-scroll-proportion="-58.846153">
+              <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/HashLogic.java">
+      <file leaf-file-name="BanUserCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/BanUserCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/ImageLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="76" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.23517786">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQLBookDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLBookDAO.java">
+      <file leaf-file-name="viewAllUsers.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewAllUsers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-              <folding>
-                <marker date="1488647809374" expanded="true" signature="1113:1139" placeholder="SELECT count... books" />
-                <marker date="1488647809374" expanded="true" signature="1217:1274" placeholder="DELETE FROM " />
-                <marker date="1488647809374" expanded="true" signature="1769:1851" placeholder="INSERT INTO books... " />
-                <marker date="1488647809374" expanded="true" signature="1910:2019" placeholder="SELECT book_... books" />
-                <marker date="1488647809374" expanded="true" signature="2093:2346" placeholder="SELECT ratin... rating" />
-                <marker date="1488647809374" expanded="true" signature="2117:2214" placeholder="select avg(r... rating" />
-                <marker date="1488647809374" expanded="true" signature="3094:3129" placeholder="DELETE FROM " />
-                <marker date="1488647809374" expanded="true" signature="3201:3291" placeholder="UPDATE BOOKS... " />
-                <marker date="1488647809374" expanded="true" signature="3549:3627" placeholder="SELECT BOOK_... AUTHORS_BOOKS" />
-                <marker date="1488647809374" expanded="true" signature="5343:5459" placeholder="SELECT book_... books" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewAllBooksCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewAllBooksCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LoginCommand.java">
+      <file leaf-file-name="addAuthor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addAuthor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/ActionFactory.java">
+      <file leaf-file-name="addBook.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addBook.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrontController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/FrontController.java">
+      <file leaf-file-name="booksByGenre.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/booksByGenre.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0660146">
-              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            <state vertical-scroll-proportion="-13.576923">
+              <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewAuthor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewAuthor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.9615384">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewSingle.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewTodayComments.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewTodayComments.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,9 +444,14 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -169,57 +461,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewProfileCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/CommentDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewSingleBookCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/LeaveCommentCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/EditProfileCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/ImageLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLCommentDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLAuthorDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLRatingDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/CommandEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LoginCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/EditProfilePageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLUserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/AuthorDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/RatingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/AuthorService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/editProfile.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/profile.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/ViewUserCommentsCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewReadBooksCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewFavoriteBooksCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/favoriteBooks.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/readBooks.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LogoutCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/BookDAO.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/794d5ce5-e03f-42ec-884f-bca3185594a3/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/constant/ParameterConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewAllBooksCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/connection/impl/ConnectionPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLBookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddBookToReadCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/DeleteBookFromFavoriteCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewSingleBookCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewAllBooksCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewAuthorCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/FindBooksByGenreCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditBookPageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditBookCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/DeleteBookCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/AuthorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/GenreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/GenreDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/AuthorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLGenreDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/DeleteBookFromReadCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/EditAuthorCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/ViewTodayCommentsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/ViewUserCommentsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/ChangeLocaleCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/comment/DeleteCommentCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/DAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLAuthorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLCommentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/booksByGenre.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/filter/CharsetFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/pool/impl/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/EditProfileCommand.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/templatemo-style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/GenreDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLGenreDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/FindBooksByGenreCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/GenreService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/BanUserCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/locale.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/locale_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/locale_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/addAuthor.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/addBook.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/editAuthor.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/editBook.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/favoriteBooks.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/readBooks.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/search.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/viewTodayComments.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/viewAll.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddAuthorCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/DAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/CommandTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/HashLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/FrontController.java" />
       </list>
     </option>
   </component>
@@ -279,7 +571,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,6 +606,136 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookrating" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'locale'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -339,105 +760,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookrating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -452,6 +780,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.epam.bookrating.controller.command.impl.book" />
       <recent name="by.epam.bookrating" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -475,6 +804,32 @@
       <option name="PACKAGE_NAME" value="by.epam.bookrating" />
       <option name="MAIN_CLASS_NAME" value="by.epam.bookrating.CommandTest" />
       <option name="METHOD_NAME" value="testQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CommandTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.epam.bookrating.command.impl.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bookrating" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.epam.bookrating.command.impl.book" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.bookrating.command.impl.book.CommandTest" />
+      <option name="METHOD_NAME" value="testSet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1058,13 +1413,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CommandTest.testQueue" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CommandTest.testSet" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CommandTest.testQueue" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CommandTest.testSet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CommandTest.testQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -1092,7 +1449,16 @@
       <workItem from="1488877764594" duration="234000" />
       <workItem from="1489058360328" duration="2117000" />
       <workItem from="1489655732101" duration="11410000" />
-      <workItem from="1489782414499" duration="1116000" />
+      <workItem from="1489782414499" duration="1632000" />
+      <workItem from="1490038194845" duration="3392000" />
+      <workItem from="1490081535395" duration="3200000" />
+      <workItem from="1490120830996" duration="6054000" />
+      <workItem from="1490254394381" duration="5293000" />
+      <workItem from="1490289123153" duration="580000" />
+      <workItem from="1490339033173" duration="5022000" />
+      <workItem from="1490693853272" duration="3255000" />
+      <workItem from="1490770730477" duration="16997000" />
+      <workItem from="1490883474378" duration="8179000" />
     </task>
     <servers />
   </component>
@@ -1112,9 +1478,21 @@
     <history-entry file="CommandTest_testQueue - 2017.03.16 at 13h 05m 12s.xml">
       <configuration name="CommandTest.testQueue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandTest_testSet - 2017.03.21 at 23h 10m 53s.xml">
+      <configuration name="CommandTest.testSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTest_testSet - 2017.03.23 at 12h 20m 15s.xml">
+      <configuration name="CommandTest.testSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTest_testSet - 2017.03.23 at 12h 20m 50s.xml">
+      <configuration name="CommandTest.testSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTest_testSet - 2017.03.23 at 12h 31m 54s.xml">
+      <configuration name="CommandTest.testSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92861000" />
+    <option name="totallyTimeSpent" value="145349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1131,26 +1509,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.044510387" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.043010753" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37240356" sideWeight="0.18740849" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32344213" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.8125915" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1797235" sideWeight="0.8125915" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4608295" sideWeight="0.84040993" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23630673" sideWeight="0.84040993" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3563748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1164,23 +1542,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Some changes made in packages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes made in packages." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookCommand.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddBookCommand.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewProfileCommand.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/ViewProfileCommand.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/jsp/editBook.jsp</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1189,269 +1579,63 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewProfileCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewSingleBookCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/CommentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewAuthorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/editProfile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53419596">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.659612">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/constant/PageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5433884">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.961538">
-          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewSingleBookCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/EditProfilePageCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewReadBooksCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/ViewFavoriteBooksCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/favoriteBooks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/readBooks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="167" selection-start-line="83" selection-start-column="167" selection-end-line="83" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/comment/ViewUserCommentsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="68" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-79.11539">
-          <caret line="121" column="63" selection-start-line="121" selection-start-column="63" selection-end-line="121" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4a3b1511/794d5ce5-e03f-42ec-884f-bca3185594a3/bookrating.books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/794d5ce5-e03f-42ec-884f-bca3185594a3/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33187774">
-          <caret line="613" column="22" selection-start-line="613" selection-start-column="22" selection-end-line="613" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/constant/ParameterConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLGenreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5022727">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/GenreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38636363">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/FindBooksByGenreCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53636366">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/entity/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38636363">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.653847">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/ViewAllBooksCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/RatingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/GenreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/AuthorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="13" selection-start-line="97" selection-start-column="10" selection-end-line="101" selection-end-column="13" />
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1364366">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/exception/ServiceException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/GenreDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddAuthorPageCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/RatingDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddAuthorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/book/AddAuthorPageCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1459,124 +1643,398 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddBookCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/FrontController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/templatemo-style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/CloseStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321617">
-          <caret line="392" column="21" selection-start-line="392" selection-start-column="1" selection-end-line="392" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLAuthorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="179" column="5" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+          <folding>
+            <marker date="1490775998242" expanded="true" signature="792:925" placeholder="UPDATE autho... " />
+            <marker date="1490775998242" expanded="true" signature="990:1276" placeholder="SELECT autho... authors" />
+            <marker date="1490775998242" expanded="true" signature="1342:1441" placeholder="INSERT INTO authors... " />
+            <marker date="1490775998242" expanded="true" signature="1502:1628" placeholder="SELECT autho... authors" />
+            <marker date="1490775998242" expanded="true" signature="1695:1824" placeholder="SELECT autho... authors" />
+            <marker date="1490775998242" expanded="true" signature="1889:1930" placeholder="INSERT INTO authors... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLBookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+          <folding>
+            <marker date="1490736496574" expanded="true" signature="976:1002" placeholder="SELECT count... books" />
+            <marker date="1490736496574" expanded="true" signature="1080:1137" placeholder="DELETE FROM " />
+            <marker date="1490736496574" expanded="true" signature="1632:1714" placeholder="INSERT INTO books... " />
+            <marker date="1490736496574" expanded="true" signature="1773:1882" placeholder="SELECT book_... books" />
+            <marker date="1490736496574" expanded="true" signature="1956:2209" placeholder="SELECT ratin... rating" />
+            <marker date="1490736496574" expanded="true" signature="1980:2077" placeholder="select avg(r... rating" />
+            <marker date="1490736496574" expanded="true" signature="2957:2992" placeholder="DELETE FROM " />
+            <marker date="1490736496574" expanded="true" signature="3064:3154" placeholder="UPDATE BOOKS... " />
+            <marker date="1490736496574" expanded="true" signature="3412:3490" placeholder="SELECT BOOK_... AUTHORS_BOOKS" />
+            <marker date="1490736496574" expanded="true" signature="5206:5322" placeholder="SELECT book_... books" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLCommentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+          <folding>
+            <marker date="1490775998263" expanded="true" signature="914:997" placeholder="INSERT INTO comments... " />
+            <marker date="1490775998263" expanded="true" signature="1080:1254" placeholder="SELECT comme... comments" />
+            <marker date="1490775998263" expanded="true" signature="1331:1457" placeholder="SELECT comme... comments" />
+            <marker date="1490775998263" expanded="true" signature="1537:1657" placeholder="SELECT comme... comments" />
+            <marker date="1490775998263" expanded="true" signature="1734:1775" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLRatingDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1490736496459" expanded="true" signature="860:919" placeholder="INSERT INTO rating... " />
+            <marker date="1490736496459" expanded="true" signature="988:1034" placeholder="SELECT AVG(r... rating" />
+            <marker date="1490736496459" expanded="true" signature="1109:1184" placeholder="SELECT user_... rating" />
+            <marker date="1490736496459" expanded="true" signature="1272:1372" placeholder="SELECT user_... RATING" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/impl/MySQLUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1490736496528" expanded="true" signature="914:970" placeholder="INSERT INTO users... " />
+            <marker date="1490736496528" expanded="true" signature="1040:1109" placeholder="SELECT user_... users" />
+            <marker date="1490736496528" expanded="true" signature="1179:1218" placeholder="SELECT login... users" />
+            <marker date="1490736496528" expanded="true" signature="1288:1346" placeholder="UPDATE users... " />
+            <marker date="1490736496528" expanded="true" signature="1511:1561" placeholder="UPDATE users... " />
+            <marker date="1490736496528" expanded="true" signature="1737:1829" placeholder="SELECT user_... users" />
+            <marker date="1490736496528" expanded="true" signature="1908:1998" placeholder="SELECT user_... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/filter/CharsetFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/AuthorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5730337">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/pool/impl/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2387#2388#0" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="false" />
+            <element signature="e#2467#2468#0" expanded="false" />
+            <element signature="e#2497#2498#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/EditProfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/ChangeLocaleCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.012438">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/locale.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/locale_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/locale_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2727275">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/editAuthor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/editBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.884615">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/editProfile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9615384">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/fail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/favoriteBooks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.884615">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/readBooks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewAuthor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9615384">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewTodayComments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userComments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addAuthor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/booksByGenre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.576923">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewAllUsers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/viewAll.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        <state vertical-scroll-proportion="-58.846153">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/NavigableSet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/command/impl/user/BanUserCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.0288925">
-          <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4596577">
-          <caret line="208" column="6" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/connection/impl/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/AddAuthorCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/HashLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/service/logic/ImageLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="76" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/dao/dao/impl/MySQLBookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding>
-            <marker date="1488647809374" expanded="true" signature="1113:1139" placeholder="SELECT count... books" />
-            <marker date="1488647809374" expanded="true" signature="1217:1274" placeholder="DELETE FROM " />
-            <marker date="1488647809374" expanded="true" signature="1769:1851" placeholder="INSERT INTO books... " />
-            <marker date="1488647809374" expanded="true" signature="1910:2019" placeholder="SELECT book_... books" />
-            <marker date="1488647809374" expanded="true" signature="2093:2346" placeholder="SELECT ratin... rating" />
-            <marker date="1488647809374" expanded="true" signature="2117:2214" placeholder="select avg(r... rating" />
-            <marker date="1488647809374" expanded="true" signature="3094:3129" placeholder="DELETE FROM " />
-            <marker date="1488647809374" expanded="true" signature="3201:3291" placeholder="UPDATE BOOKS... " />
-            <marker date="1488647809374" expanded="true" signature="3549:3627" placeholder="SELECT BOOK_... AUTHORS_BOOKS" />
-            <marker date="1488647809374" expanded="true" signature="5343:5459" placeholder="SELECT book_... books" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/book/ViewAllBooksCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/command/impl/user/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/ActionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/bookrating/controller/controller/FrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0660146">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.23517786">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>

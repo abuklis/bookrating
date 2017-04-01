@@ -12,7 +12,7 @@
 
   <servlet>
     <servlet-name>Servlet</servlet-name>
-    <servlet-class>by.epam.bookrating.controller.controller.FrontController</servlet-class>
+    <servlet-class>by.epam.bookrating.controller.FrontController</servlet-class>
     <load-on-startup>0</load-on-startup>
   </servlet>
 
@@ -23,7 +23,7 @@
 
   <filter>
     <filter-name>LocaleFilter</filter-name>
-    <filter-class>by.epam.bookrating.controller.filter.LocaleFilter</filter-class>
+    <filter-class>by.epam.bookrating.filter.LocaleFilter</filter-class>
   </filter>
 
   <filter-mapping>
@@ -35,7 +35,7 @@
 
   <filter>
     <filter-name>CharsetFilter</filter-name>
-    <filter-class>by.epam.bookrating.controller.filter.CharsetFilter</filter-class>
+    <filter-class>by.epam.bookrating.filter.CharsetFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>CharsetFilter</filter-name>

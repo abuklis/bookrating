@@ -2,18 +2,16 @@
 <c:set var="banned" value="banned"/>
 <c:set var="admin" value="admin"/>
 
-
 <div class="tm-navbar-container-dark">
     <nav class="navbar navbar-full bg-inverse">
         <ul class="collapse navbar-toggleable-sm" id="tmNavbar">
-            <a class="home-link" href="controller?command=viewAllBooks">BookRating</a>
+            <a class="home-link" href="controller?command=viewAllBooks">${bookrating}</a>
             <c:choose>
-
                 <%--For admin--%>
                 <c:when test="${sessionScope.role == admin}">
                     <ul class="nav navbar-nav header-nav">
                         <li class="nav-item">
-                            <a href="controller?command=addAuthorPage" class="nav-link">AddAuthor</a></li>
+                            <a href="controller?command=addAuthorPage" class="nav-link">Add Author</a></li>
                         <li class="nav-item">
                             <a href="controller?command=viewAllUsers" class="nav-link">View user's info</a></li>
                         <li class="nav-item">
@@ -21,31 +19,25 @@
                         <li class="nav-item">
                             <a href="controller?command=viewTodayComments" class="nav-link">View today comments</a></li>
                         <li class="nav-item">
-                            <a href="controller?command=logout"  class="nav-link">Logout</a>
+                            <a href="controller?command=logout" class="nav-link">${logout}</a>
                         </li>
                     </ul>
                 </c:when>
-                <c:otherwise>
-                </c:otherwise>
-            </c:choose>
 
-            <%--For user--%>
-            <c:choose>
                 <c:when test="${sessionScope.role == userRole }">
                     <div class="header-nav" >
-                        <span class="welcome-text">Hi, </span><a href="controller?command=viewProfile&userId=${sessionScope.userId}" class="nav-link">${sessionScope.login}</a>
-                        <a href="controller?command=logout" class="nav-link">Logout</a>
+                        <span class="welcome-text">${welcomeText}, </span><a href="controller?command=viewProfile&userId=${sessionScope.userId}" class="nav-link">${sessionScope.login}</a>
+                        <a href="controller?command=logout" class="nav-link">${logout}</a>
                     </div>
                 </c:when>
-                <c:when test="${sessionScope.role == admin}">
-                </c:when>
+
                 <c:otherwise>
                     <ul class="nav navbar-nav header-nav">
                         <li class="nav-item">
-                            <a href="controller?command=registerPage" class="nav-link">Registration</a>
+                            <a href="controller?command=registerPage" class="nav-link">${registration}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="controller?command=loginPage&page=${pageContext.request.requestURI}" class="nav-link">Login</a>
+                            <a href="controller?command=loginPage&page=${pageContext.request.requestURI}" class="nav-link">${login}</a>
                         </li>
                     </ul>
                 </c:otherwise>
